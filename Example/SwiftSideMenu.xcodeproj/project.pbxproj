@@ -11,6 +11,11 @@
 		1429139319DA9F4D0025188A /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1429139219DA9F4D0025188A /* MyNavigationController.swift */; };
 		14EAB63D19DD4E95006A90FC /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EAB63B19DD4E95006A90FC /* ENSideMenu.swift */; };
 		14EAB63E19DD4E95006A90FC /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EAB63C19DD4E95006A90FC /* ENSideMenuNavigationController.swift */; };
+		2756A8651A4F8094007E2BCE /* SideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 2756A8641A4F8094007E2BCE /* SideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2756A86B1A4F8094007E2BCE /* SideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2756A8601A4F8094007E2BCE /* SideMenu.framework */; };
+		2756A8721A4F8094007E2BCE /* SideMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2756A8711A4F8094007E2BCE /* SideMenuTests.swift */; };
+		2756A8791A4F80BA007E2BCE /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EAB63B19DD4E95006A90FC /* ENSideMenu.swift */; };
+		2756A87A1A4F80BA007E2BCE /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EAB63C19DD4E95006A90FC /* ENSideMenuNavigationController.swift */; };
 		5C132589198E2A9A00CA49BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C132588198E2A9A00CA49BE /* AppDelegate.swift */; };
 		5C13258B198E2A9A00CA49BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C13258A198E2A9A00CA49BE /* ViewController.swift */; };
 		5C132590198E2A9A00CA49BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C13258F198E2A9A00CA49BE /* Images.xcassets */; };
@@ -20,6 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2756A86C1A4F8094007E2BCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C13257B198E2A9A00CA49BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2756A85F1A4F8094007E2BCE;
+			remoteInfo = SideMenu;
+		};
 		5C132596198E2A9A00CA49BE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5C13257B198E2A9A00CA49BE /* Project object */;
@@ -34,6 +46,12 @@
 		1429139219DA9F4D0025188A /* MyNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
 		14EAB63B19DD4E95006A90FC /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
 		14EAB63C19DD4E95006A90FC /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
+		2756A8601A4F8094007E2BCE /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2756A8631A4F8094007E2BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2756A8641A4F8094007E2BCE /* SideMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SideMenu.h; sourceTree = "<group>"; };
+		2756A86A1A4F8094007E2BCE /* SideMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2756A8701A4F8094007E2BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2756A8711A4F8094007E2BCE /* SideMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTests.swift; sourceTree = "<group>"; };
 		5C132583198E2A9A00CA49BE /* SwiftSideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C132587198E2A9A00CA49BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C132588198E2A9A00CA49BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +65,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2756A85C1A4F8094007E2BCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2756A8671A4F8094007E2BCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2756A86B1A4F8094007E2BCE /* SideMenu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5C132580198E2A9A00CA49BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,11 +126,47 @@
 			path = ../../Library;
 			sourceTree = "<group>";
 		};
+		2756A8611A4F8094007E2BCE /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				2756A8641A4F8094007E2BCE /* SideMenu.h */,
+				2756A8621A4F8094007E2BCE /* Supporting Files */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		2756A8621A4F8094007E2BCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2756A8631A4F8094007E2BCE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2756A86E1A4F8094007E2BCE /* SideMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				2756A8711A4F8094007E2BCE /* SideMenuTests.swift */,
+				2756A86F1A4F8094007E2BCE /* Supporting Files */,
+			);
+			path = SideMenuTests;
+			sourceTree = "<group>";
+		};
+		2756A86F1A4F8094007E2BCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2756A8701A4F8094007E2BCE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		5C13257A198E2A9A00CA49BE = {
 			isa = PBXGroup;
 			children = (
 				5C132585198E2A9A00CA49BE /* SwiftSideMenu */,
 				5C132598198E2A9A00CA49BE /* SwiftSideMenuTests */,
+				2756A8611A4F8094007E2BCE /* SideMenu */,
+				2756A86E1A4F8094007E2BCE /* SideMenuTests */,
 				5C132584198E2A9A00CA49BE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,6 +176,8 @@
 			children = (
 				5C132583198E2A9A00CA49BE /* SwiftSideMenu.app */,
 				5C132595198E2A9A00CA49BE /* SwiftSideMenuTests.xctest */,
+				2756A8601A4F8094007E2BCE /* SideMenu.framework */,
+				2756A86A1A4F8094007E2BCE /* SideMenuTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,7 +222,54 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		2756A85D1A4F8094007E2BCE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2756A8651A4F8094007E2BCE /* SideMenu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		2756A85F1A4F8094007E2BCE /* SideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2756A8731A4F8094007E2BCE /* Build configuration list for PBXNativeTarget "SideMenu" */;
+			buildPhases = (
+				2756A85B1A4F8094007E2BCE /* Sources */,
+				2756A85C1A4F8094007E2BCE /* Frameworks */,
+				2756A85D1A4F8094007E2BCE /* Headers */,
+				2756A85E1A4F8094007E2BCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideMenu;
+			productName = SideMenu;
+			productReference = 2756A8601A4F8094007E2BCE /* SideMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2756A8691A4F8094007E2BCE /* SideMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2756A8761A4F8094007E2BCE /* Build configuration list for PBXNativeTarget "SideMenuTests" */;
+			buildPhases = (
+				2756A8661A4F8094007E2BCE /* Sources */,
+				2756A8671A4F8094007E2BCE /* Frameworks */,
+				2756A8681A4F8094007E2BCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2756A86D1A4F8094007E2BCE /* PBXTargetDependency */,
+			);
+			name = SideMenuTests;
+			productName = SideMenuTests;
+			productReference = 2756A86A1A4F8094007E2BCE /* SideMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		5C132582198E2A9A00CA49BE /* SwiftSideMenu */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C13259F198E2A9A00CA49BE /* Build configuration list for PBXNativeTarget "SwiftSideMenu" */;
@@ -196,6 +314,12 @@
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Evgeny Nazarov";
 				TargetAttributes = {
+					2756A85F1A4F8094007E2BCE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					2756A8691A4F8094007E2BCE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
 					5C132582198E2A9A00CA49BE = {
 						CreatedOnToolsVersion = 6.0;
 					};
@@ -220,11 +344,27 @@
 			targets = (
 				5C132582198E2A9A00CA49BE /* SwiftSideMenu */,
 				5C132594198E2A9A00CA49BE /* SwiftSideMenuTests */,
+				2756A85F1A4F8094007E2BCE /* SideMenu */,
+				2756A8691A4F8094007E2BCE /* SideMenuTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2756A85E1A4F8094007E2BCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2756A8681A4F8094007E2BCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5C132581198E2A9A00CA49BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,6 +385,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2756A85B1A4F8094007E2BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2756A8791A4F80BA007E2BCE /* ENSideMenu.swift in Sources */,
+				2756A87A1A4F80BA007E2BCE /* ENSideMenuNavigationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2756A8661A4F8094007E2BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2756A8721A4F8094007E2BCE /* SideMenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5C13257F198E2A9A00CA49BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,6 +426,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2756A86D1A4F8094007E2BCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2756A85F1A4F8094007E2BCE /* SideMenu */;
+			targetProxy = 2756A86C1A4F8094007E2BCE /* PBXContainerItemProxy */;
+		};
 		5C132597198E2A9A00CA49BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5C132582198E2A9A00CA49BE /* SwiftSideMenu */;
@@ -288,6 +450,80 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2756A8741A4F8094007E2BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SideMenu/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2756A8751A4F8094007E2BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SideMenu/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2756A8771A4F8094007E2BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SideMenuTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2756A8781A4F8094007E2BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SideMenuTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		5C13259D198E2A9A00CA49BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -428,6 +664,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2756A8731A4F8094007E2BCE /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2756A8741A4F8094007E2BCE /* Debug */,
+				2756A8751A4F8094007E2BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2756A8761A4F8094007E2BCE /* Build configuration list for PBXNativeTarget "SideMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2756A8771A4F8094007E2BCE /* Debug */,
+				2756A8781A4F8094007E2BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		5C13257E198E2A9A00CA49BE /* Build configuration list for PBXProject "SwiftSideMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
